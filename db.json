@@ -1,0 +1,136 @@
+{
+    "data":[
+        {
+            "shops":[
+                {
+                    "id": "s1",
+                    "title": "Chemist",
+                    "adress":"Castle Hill, NSW AU 2154",
+                    "c_img":"chemist_1.png" 
+                },
+                {
+                    "id": "s2",
+                    "title": "Chemist",
+                    "adress":"Wandra Hill, NSW AU 2154",
+                    "c_img":"chemist_2.png" 
+                },
+                {
+                    "id": "s3",
+                    "title": "Bakery",
+                    "adress":"Ashoka Hill, House no. 123",
+                    "c_img":"bakery_1.png" 
+                },
+                {
+                    "id": "s4",
+                    "title": "Bakery",
+                    "adress":"Surat Alok Hill, House no. 120",
+                    "c_img":"bakery_2.png" 
+                },
+                {
+                    "id": "s5",
+                    "title": "Vegetables",
+                    "adress":"VIP Road ",
+                    "c_img":"vegetables_1.png" 
+                },
+                {
+                    "id": "s6",
+                    "title": "Vegetables",
+                    "adress":"VIP Road ",
+                    "c_img":"vegetables_2.png" 
+                },
+                {
+                    "id": "s7",
+                    "title": "Gift",
+                    "adress":"Bhopal VIP Road ",
+                    "c_img":"gift_1.png" 
+                },
+                {
+                    "id": "s8",
+                    "title": "Gift",
+                    "adress":" NP nagar Road ",
+                    "c_img":"gift_2.png" 
+                }
+            ],
+            "Chemist":[
+                {
+                    "id": "c1",
+                    "title": "Dolo 650 Tablet",
+                    "price":"20",
+                    "c_img":"dolo.png" 
+                },
+                {
+                    "id": "c2",
+                    "title": "Nice Tablet",
+                    "price":"50",
+                    "c_img":"nice.png" 
+                },
+                {
+                    "id": "c3",
+                    "title": "Pracetamol Tablet",
+                    "price":"20",
+                    "c_img":"pracetamol.png" 
+                }
+            ],
+            "Bakery":[
+                {
+                    "id": "b1",
+                    "title": "Haldiram bread",
+                    "price":"30",
+                    "c_img":"bread.png" 
+                },
+                {
+                    "id": "b2",
+                    "title": "Amule milk",
+                    "price":"25",
+                    "c_img":"milk.png" 
+                },
+                {
+                    "id": "b3",
+                    "title": "Cake",
+                    "price":"250",
+                    "c_img":"cake.png" 
+                }
+            ],
+            "Vegetables":[
+                {
+                    "id": "v1",
+                    "title": "Potato",
+                    "price":"50 kg",
+                    "c_img":"potato.png" 
+                },
+                {
+                    "id": "v2",
+                    "title": "Couliflower",
+                    "price":"30 kg ",
+                    "c_img":"couliflower.png" 
+                },
+                {
+                    "id": "v3",
+                    "title": "Onion",
+                    "price":"30 kg",
+                    "c_img":"onion.png" 
+                }
+            ],
+            "Gift":[
+                {
+                    "id": "g1",
+                    "title": "Shft toy",
+                    "price":"2000",
+                    "c_img":"softToy.png" 
+                },
+                {
+                    "id": "g2",
+                    "title": "Bag",
+                    "price":"550",
+                    "c_img":"bag.png" 
+                },
+                {
+                    "id": "g3",
+                    "title": "Hand Book",
+                    "price":"150",
+                    "c_img":"handBook.png" 
+                }
+            ]
+        }
+    ]
+}
