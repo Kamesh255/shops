@@ -1,0 +1,46 @@
+.baner_div{
+    width: 100%;
+    height: 300px; 
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.grtfM3dM39nACqsQLrguuQHaDp&pid=Api");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    display: grid;
+    /* align-items: center; */
+}
+.shop_container{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+@media(max-width:1120px ){
+    .shop_container{
+        display: grid;
+        grid-template-columns: 33% 33% 33% ;
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width:880px ){
+    .shop_container{
+        display: grid;
+        grid-template-columns: 49% 49% ;
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width:550px ){
+    .shop_container{
+        display: grid;
+        grid-template-columns:  100% ;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+}
