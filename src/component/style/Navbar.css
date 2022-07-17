@@ -4,6 +4,9 @@
     align-items: center;
     height: 70px;
     border-bottom: 1px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
 }
 .icon_div{
