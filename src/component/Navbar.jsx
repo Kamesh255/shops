@@ -35,7 +35,7 @@ const Navbar = () => {
             <ul className='cart_ui'> 
                 <li><AiOutlineUser/><p>Sign in</p></li> 
                 <li><AiOutlineHeart/><p>Like</p></li>
-                <li><AiOutlineShoppingCart/><p>Cart</p></li> 
+                <Link to='/cart'><li> <AiOutlineShoppingCart/><p>Cart</p></li></Link>
             </ul>
         </div>
     </div>

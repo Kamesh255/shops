@@ -64,7 +64,7 @@ const Home = () => {
               } 
             }).map((el)=>{
             return(
-              <div style={{maxWidth:'250px',margin:'auto',borderRadius:'5px',display:'grid',gridAutoRows:'55% 32% 13%',textAlign:'left',padding:'5px',boxShadow:'gray 5px 5px 10px 5px'}}>
+              <div style={{maxWidth:'250px',minHeight:'400px',margin:'auto',borderRadius:'5px',display:'grid',gridAutoRows:'55% 32% 13%',textAlign:'left',padding:'5px',boxShadow:'gray 5px 5px 10px 5px'}}>
                 <div>
                   <img style={{width:'100%', height:'100%'}} src={el.c_img} alt="" />
                 </div>

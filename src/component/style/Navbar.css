@@ -35,7 +35,7 @@ li>p{
 @media (max-width:600px){
     .nav_container{
         display: grid;
-        grid-template-columns: 25% 40% 35%;
+        grid-template-columns: 25% 35% 40%;
     }
     .ui_div{
         display: none;

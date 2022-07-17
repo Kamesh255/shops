@@ -115,19 +115,19 @@
                         {
                             "id": "v1",
                             "title": "Potato",
-                            "price":"50 kg",
+                            "price":"50",
                             "c_img":"https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api" 
                         },
                         {
                             "id": "v2",
                             "title": "Couliflower",
-                            "price":"30 kg ",
+                            "price":"30",
                             "c_img":"https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api" 
                         },
                         {
                             "id": "v3",
                             "title": "Onion",
-                            "price":"30 kg",
+                            "price":"30",
                             "c_img":"https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api" 
                         }
                     ] 
@@ -141,19 +141,19 @@
                         {
                             "id": "v1",
                             "title": "Potato",
-                            "price":"50 kg",
+                            "price":"50",
                             "c_img":"https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api" 
                         },
                         {
                             "id": "v2",
                             "title": "Couliflower",
-                            "price":"30 kg ",
+                            "price":"30 ",
                             "c_img":"https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api" 
                         },
                         {
                             "id": "v3",
                             "title": "Onion",
-                            "price":"30 kg",
+                            "price":"30",
                             "c_img":"https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api" 
                         }
                     ]

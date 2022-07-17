@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useDispatch } from 'react-redux';
 import {useParams } from 'react-router-dom'
+import { addCart } from '../redux/action';
 
 const Products = ( ) => {
+
+  const dispatch = useDispatch(); 
      
   const [search, setSearch] = useState("")
     const [product, setProduct] = useState([])
@@ -15,9 +19,15 @@ const Products = ( ) => {
         itemData();
       }, []);
 
-      const data = product
- 
-      console.log("data",data)
+    
+
+      const handelAddCart = (idx) => {
+        product.forEach((e) => {
+          if (e.id === idx) {
+            dispatch(addCart(e));
+          }
+        });
+      }; 
     
   return (
     <div>
@@ -35,7 +45,7 @@ const Products = ( ) => {
       <br />
 
       <div className='shop_container'>
-          {data?.filter((el) => {
+          {product?.filter((el) => {
               if (search === "") {
                 return el;
               } else if (
@@ -45,7 +55,7 @@ const Products = ( ) => {
               } 
             }).map((el)=>{
             return(
-              <div style={{ maxHeight:'350px',borderRadius:'5px',display:'grid',gridAutoRows:'60% 25% 15%',textAlign:'left',padding:'5px',boxShadow:'gray 5px 5px 10px 5px'}}>
+              <div style={{width:'250px',height:'400px',margin:'auto',borderRadius:'5px',display:'grid',gridAutoRows:'60% 25% 15%',textAlign:'left',padding:'5px',boxShadow:'gray 5px 5px 10px 5px'}}>
                 <div>
                   <img style={{width:'100%', height:'100%'}} src={el.c_img} alt="" />
                 </div>
@@ -54,7 +64,7 @@ const Products = ( ) => {
                   <p style={{fontWeight:'500'}}>{`Price: ${el.price}`}</p>
                 </div>
                 <div style={{textAlign:'center'}}> 
-                     <button style={{fontWeight:'bold',backgroundColor:'green',color:'white',padding:'15px 25px',border:'none',borderRadius:'5px',cursor:'pointer'}}  >ADD TO CART</button>
+                     <button style={{fontWeight:'bold',backgroundColor:'green',color:'white',padding:'15px 25px',border:'none',borderRadius:'5px',cursor:'pointer'}} onClick={() =>{ handelAddCart(el.id)}} >ADD TO CART</button>
                   <br />
                 </div>
               </div>
