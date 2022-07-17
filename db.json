@@ -1,215 +1,212 @@
 {
-    
-      
-            "shops":[
+    "shops": [
+        {
+            "id": "chemist-1",
+            "title": "Chemist",
+            "adress": "Castle Hill, NSW AU 2154",
+            "c_img": "https://tse3.mm.bing.net/th?id=OIP.i2Hw0sSHp0tOC6oBF4fiJwHaFj&pid=Api",
+            "product": [
                 {
-                    "id": "chemist-1",
-                    "title": "Chemist",
-                    "adress":"Castle Hill, NSW AU 2154",
-                    "c_img":"https://tse3.mm.bing.net/th?id=OIP.i2Hw0sSHp0tOC6oBF4fiJwHaFj&pid=Api",
-                    "product":[
-                        {
-                            "id": "c1",
-                            "title": "Dolo 650 Tablet",
-                            "price":"20",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.t9zXMkfINtsMHhaSK-eWjwHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "c2",
-                            "title": "Nice Tablet",
-                            "price":"50",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.Z5e7GwI41d5H8Fayjhba0wHaEK&pid=Api" 
-                        },
-                        {
-                            "id": "c3",
-                            "title": "Pracetamol Tablet",
-                            "price":"20",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.rsCNmCTA2mWEYea433Fh2wAAAA&pid=Api" 
-                        }
-                    ]
+                    "id": "c1",
+                    "title": "Dolo 650 Tablet",
+                    "price": "20",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.t9zXMkfINtsMHhaSK-eWjwHaHa&pid=Api"
                 },
                 {
-                    "id": "chemist-2",
-                    "title": "Chemist",
-                    "adress":"Wandra Hill, NSW AU 2154",
-                    "c_img":"https://tse2.mm.bing.net/th?id=OIP.nnFdXKuk9V2-3ClN0R0fVwHaFj&pid=Api",
-                    "product":[
-                        {
-                            "id": "c1",
-                            "title": "Dolo 650 Tablet",
-                            "price":"20",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.t9zXMkfINtsMHhaSK-eWjwHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "c2",
-                            "title": "Nice Tablet",
-                            "price":"50",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.Z5e7GwI41d5H8Fayjhba0wHaEK&pid=Api" 
-                        },
-                        {
-                            "id": "c3",
-                            "title": "Pracetamol Tablet",
-                            "price":"20",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.rsCNmCTA2mWEYea433Fh2wAAAA&pid=Api" 
-                        }
-                    ]
+                    "id": "c2",
+                    "title": "Nice Tablet",
+                    "price": "50",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.Z5e7GwI41d5H8Fayjhba0wHaEK&pid=Api"
                 },
                 {
-                    "id": "bakery-1",
-                    "title": "Bakery",
-                    "adress":"Ashoka Hill, House no. 123",
-                    "c_img":"https://tse4.mm.bing.net/th?id=OIP.qYTaxl46Yr6LErvWkJNFJgHaFj&pid=Api",
-                    "product":[
-                        {
-                            "id": "b1",
-                            "title": "Haldiram bread",
-                            "price":"30",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.lJN3Hy6KlzhouQiOwXwHcQHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "b2",
-                            "title": "Amule milk",
-                            "price":"25",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.sy-JizZLGi34x5qxjE32mwAAAA&pid=Api" 
-                        },
-                        {
-                            "id": "b3",
-                            "title": "Cake",
-                            "price":"250",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.dROswB0kuygzww7g-skePgHaJ4&pid=Api" 
-                        }
-                    ]
-                },
-                {
-                    "id": "bakery-2",
-                    "title": "Bakery",
-                    "adress":"Surat Alok Hill, House no. 120",
-                    "c_img":"https://tse4.mm.bing.net/th?id=OIP.I5EdXP9TThrk5d3nEgxeYwHaFR&pid=Api",
-                    "product":[
-                        {
-                            "id": "b1",
-                            "title": "Haldiram bread",
-                            "price":"30",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.lJN3Hy6KlzhouQiOwXwHcQHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "b2",
-                            "title": "Amule milk",
-                            "price":"25",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.sy-JizZLGi34x5qxjE32mwAAAA&pid=Api" 
-                        },
-                        {
-                            "id": "b3",
-                            "title": "Cake",
-                            "price":"250",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.dROswB0kuygzww7g-skePgHaJ4&pid=Api" 
-                        }
-                    ] 
-                },
-                {
-                    "id": "vegetables-1",
-                    "title": "Vegetables",
-                    "adress":"VIP Road ",
-                    "c_img":"https://tse2.mm.bing.net/th?id=OIP.RULoUMtA_rmARg556VqqbgHaFj&pid=Api",
-                    "product":[
-                        {
-                            "id": "v1",
-                            "title": "Potato",
-                            "price":"50",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api" 
-                        },
-                        {
-                            "id": "v2",
-                            "title": "Couliflower",
-                            "price":"30",
-                            "c_img":"https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api" 
-                        },
-                        {
-                            "id": "v3",
-                            "title": "Onion",
-                            "price":"30",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api" 
-                        }
-                    ] 
-                },
-                {
-                    "id": "vegetables-2",
-                    "title": "Vegetables",
-                    "adress":"VIP Road ",
-                    "c_img":"https://tse4.mm.bing.net/th?id=OIP.mUuTBxhdJlAnytYq6P1hygHaFj&pid=Api",
-                    "product":[
-                        {
-                            "id": "v1",
-                            "title": "Potato",
-                            "price":"50",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api" 
-                        },
-                        {
-                            "id": "v2",
-                            "title": "Couliflower",
-                            "price":"30 ",
-                            "c_img":"https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api" 
-                        },
-                        {
-                            "id": "v3",
-                            "title": "Onion",
-                            "price":"30",
-                            "c_img":"https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api" 
-                        }
-                    ]
-                },
-                {
-                    "id": "gift-1",
-                    "title": "Gift",
-                    "adress":"Bhopal VIP Road ",
-                    "c_img":"https://tse1.mm.bing.net/th?id=OIP.x_SLZzY-RRjkKVSLaoUmBAHaE8&pid=Api",
-                    "product":[
-                        {
-                            "id": "g1",
-                            "title": "Shft toy",
-                            "price":"800",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.oCCVLpg28HB3k4Ic5fSaagAAAA&pid=Api" 
-                        },
-                        {
-                            "id": "g2",
-                            "title": "Bag",
-                            "price":"550",
-                            "c_img":"https://tse3.mm.bing.net/th?id=OIP.lsjwBKunEZntRQv2XnzwdwHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "g3",
-                            "title": "Hand Book",
-                            "price":"150",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.T_yWpSKhevIxjc7am76ZTgHaEo&pid=Api" 
-                        }
-                    ] 
-                },
-                {
-                    "id": "gift-2",
-                    "title": "Gift",
-                    "adress":" NP nagar Road ",
-                    "c_img":"https://tse4.mm.bing.net/th?id=OIP.w83HPOE_ne4WRthRde0eAAHaE8&pid=Api",
-                    "product":[
-                        {
-                            "id": "g1",
-                            "title": "Shft toy",
-                            "price":"800",
-                            "c_img":"https://tse4.mm.bing.net/th?id=OIP.oCCVLpg28HB3k4Ic5fSaagAAAA&pid=Api" 
-                        },
-                        {
-                            "id": "g2",
-                            "title": "Bag",
-                            "price":"550",
-                            "c_img":"https://tse3.mm.bing.net/th?id=OIP.lsjwBKunEZntRQv2XnzwdwHaHa&pid=Api" 
-                        },
-                        {
-                            "id": "g3",
-                            "title": "Hand Book",
-                            "price":"150",
-                            "c_img":"https://tse1.mm.bing.net/th?id=OIP.T_yWpSKhevIxjc7am76ZTgHaEo&pid=Api" 
-                        }
-                    ] 
+                    "id": "c3",
+                    "title": "Pracetamol Tablet",
+                    "price": "20",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.rsCNmCTA2mWEYea433Fh2wAAAA&pid=Api"
                 }
-            ]  
-  
+            ]
+        },
+        {
+            "id": "chemist-2",
+            "title": "Chemist",
+            "adress": "Wandra Hill, NSW AU 2154",
+            "c_img": "https://tse2.mm.bing.net/th?id=OIP.nnFdXKuk9V2-3ClN0R0fVwHaFj&pid=Api",
+            "product": [
+                {
+                    "id": "c1",
+                    "title": "Dolo 650 Tablet",
+                    "price": "20",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.t9zXMkfINtsMHhaSK-eWjwHaHa&pid=Api"
+                },
+                {
+                    "id": "c2",
+                    "title": "Nice Tablet",
+                    "price": "50",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.Z5e7GwI41d5H8Fayjhba0wHaEK&pid=Api"
+                },
+                {
+                    "id": "c3",
+                    "title": "Pracetamol Tablet",
+                    "price": "20",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.rsCNmCTA2mWEYea433Fh2wAAAA&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "bakery-1",
+            "title": "Bakery",
+            "adress": "Ashoka Hill, House no. 123",
+            "c_img": "https://tse4.mm.bing.net/th?id=OIP.qYTaxl46Yr6LErvWkJNFJgHaFj&pid=Api",
+            "product": [
+                {
+                    "id": "b1",
+                    "title": "Haldiram bread",
+                    "price": "30",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.lJN3Hy6KlzhouQiOwXwHcQHaHa&pid=Api"
+                },
+                {
+                    "id": "b2",
+                    "title": "Amule milk",
+                    "price": "25",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.sy-JizZLGi34x5qxjE32mwAAAA&pid=Api"
+                },
+                {
+                    "id": "b3",
+                    "title": "Cake",
+                    "price": "250",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.dROswB0kuygzww7g-skePgHaJ4&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "bakery-2",
+            "title": "Bakery",
+            "adress": "Surat Alok Hill, House no. 120",
+            "c_img": "https://tse4.mm.bing.net/th?id=OIP.I5EdXP9TThrk5d3nEgxeYwHaFR&pid=Api",
+            "product": [
+                {
+                    "id": "b1",
+                    "title": "Haldiram bread",
+                    "price": "30",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.lJN3Hy6KlzhouQiOwXwHcQHaHa&pid=Api"
+                },
+                {
+                    "id": "b2",
+                    "title": "Amule milk",
+                    "price": "25",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.sy-JizZLGi34x5qxjE32mwAAAA&pid=Api"
+                },
+                {
+                    "id": "b3",
+                    "title": "Cake",
+                    "price": "250",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.dROswB0kuygzww7g-skePgHaJ4&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "vegetables-1",
+            "title": "Vegetables",
+            "adress": "VIP Road ",
+            "c_img": "https://tse2.mm.bing.net/th?id=OIP.RULoUMtA_rmARg556VqqbgHaFj&pid=Api",
+            "product": [
+                {
+                    "id": "v1",
+                    "title": "Potato",
+                    "price": "50",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api"
+                },
+                {
+                    "id": "v2",
+                    "title": "Couliflower",
+                    "price": "30",
+                    "c_img": "https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api"
+                },
+                {
+                    "id": "v3",
+                    "title": "Onion",
+                    "price": "30",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "vegetables-2",
+            "title": "Vegetables",
+            "adress": "VIP Road ",
+            "c_img": "https://tse4.mm.bing.net/th?id=OIP.mUuTBxhdJlAnytYq6P1hygHaFj&pid=Api",
+            "product": [
+                {
+                    "id": "v1",
+                    "title": "Potato",
+                    "price": "50",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.5v-lpa2ov9IFJD5K_OSOPgHaEr&pid=Api"
+                },
+                {
+                    "id": "v2",
+                    "title": "Couliflower",
+                    "price": "30 ",
+                    "c_img": "https://tse3.mm.bing.net/th?id=OIP.YQnks-gzn4l96VT3fI3EqwHaFj&pid=Api"
+                },
+                {
+                    "id": "v3",
+                    "title": "Onion",
+                    "price": "30",
+                    "c_img": "https://tse2.mm.bing.net/th?id=OIP.GGaiTNzdfao49Zjjcfw6TwHaGg&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "gift-1",
+            "title": "Gift",
+            "adress": "Bhopal VIP Road ",
+            "c_img": "https://tse1.mm.bing.net/th?id=OIP.x_SLZzY-RRjkKVSLaoUmBAHaE8&pid=Api",
+            "product": [
+                {
+                    "id": "g1",
+                    "title": "Shft toy",
+                    "price": "800",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.oCCVLpg28HB3k4Ic5fSaagAAAA&pid=Api"
+                },
+                {
+                    "id": "g2",
+                    "title": "Bag",
+                    "price": "550",
+                    "c_img": "https://tse3.mm.bing.net/th?id=OIP.lsjwBKunEZntRQv2XnzwdwHaHa&pid=Api"
+                },
+                {
+                    "id": "g3",
+                    "title": "Hand Book",
+                    "price": "150",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.T_yWpSKhevIxjc7am76ZTgHaEo&pid=Api"
+                }
+            ]
+        },
+        {
+            "id": "gift-2",
+            "title": "Gift",
+            "adress": " NP nagar Road ",
+            "c_img": "https://tse4.mm.bing.net/th?id=OIP.w83HPOE_ne4WRthRde0eAAHaE8&pid=Api",
+            "product": [
+                {
+                    "id": "g1",
+                    "title": "Shft toy",
+                    "price": "800",
+                    "c_img": "https://tse4.mm.bing.net/th?id=OIP.oCCVLpg28HB3k4Ic5fSaagAAAA&pid=Api"
+                },
+                {
+                    "id": "g2",
+                    "title": "Bag",
+                    "price": "550",
+                    "c_img": "https://tse3.mm.bing.net/th?id=OIP.lsjwBKunEZntRQv2XnzwdwHaHa&pid=Api"
+                },
+                {
+                    "id": "g3",
+                    "title": "Hand Book",
+                    "price": "150",
+                    "c_img": "https://tse1.mm.bing.net/th?id=OIP.T_yWpSKhevIxjc7am76ZTgHaEo&pid=Api"
+                }
+            ]
+        }
+    ]
 }

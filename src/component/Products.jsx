@@ -12,7 +12,7 @@ const Products = ( ) => {
     const params = useParams()  
     useEffect(() => {
         const itemData = async () => {
-          let req = await fetch(`http://localhost:5000/shops?id=${params.id}`);
+          let req = await fetch(`https://shops-kamesh.herokuapp.com/shops?id=${params.id}`);
           let res = await req.json()  
           setProduct(res[0].product) 
         };

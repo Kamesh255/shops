@@ -23,7 +23,7 @@ export const incrementitem = (payload) => ({
     payload: payload,
   });
 
-const URL = "http://localhost:5000/shops"
+const URL = "https://shops-kamesh.herokuapp.com/shops";
 export const getData = async (dispatch) =>{
     try{
         const req = await fetch(URL)
