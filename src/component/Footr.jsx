@@ -8,32 +8,27 @@ const Footr = () => {
             <div>
                 <img style={{marginTop:'50px'}} src="shops_icon-removebg-preview.png" alt="" />
             </div>
-            <div className='text' >
-                <p>POPULAR SUBURBS</p> 
-                    <p>Castle Hill</p>
-                    <p>Kellyville</p>
-                    <p>Cherrybrook</p>
-                    <p>Baulkham Hills</p>
-                    <p>Pennant Hill</p>
+            <div className='text'>
+            <p style={{fontWeight:'bold'}}>KEEP IN TOUCH</p> 
+                    <p> Contact Us - +919876543210 </p>
+                    <p>Help Center - shopsrun@gmail.com  </p>
+                    <p> Address - Bangalore Office, CV Raman Nagar</p> 
+            </div>
+            <div className='text2' >
+                <p style={{fontWeight:'bold'}}>All Items</p> 
+                    <p>Chemist</p>
+                    <p>Bakery</p> 
+                    <p>Vegetables </p>
+                    <p>Gift</p>
                 
             </div>
             <div className='text2'>
-            <p>PAGES</p>
+            <p style={{fontWeight:'bold'}}>PAGES</p>
                 
                     <p> About Us </p>
                     <p>Shop Registration  </p>
-                    <p>Shop & Drive For Us</p>
-                    <p>Terms & COndition </p> 
-                 
-            </div>
-            <div className='text2'>
-            <p>KEEP IN TOUCH</p> 
-                    <p> Contact Us </p>
-                    <p>Help Center    </p>
-                    <p> Facebook</p>
-                    <p>Instagram </p> 
-               
-            </div>
+                    <p>Shop & Drive For Us</p>  
+            </div> 
         </div>
     </div>
   )

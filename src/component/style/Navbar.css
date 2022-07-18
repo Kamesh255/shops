@@ -1,6 +1,6 @@
 .nav_container{
     display: grid;
-    grid-template-columns: 20% 25% 20% 35%;
+    grid-template-columns: 10% 20% 55% 15%;
     align-items: center;
     height: 70px;
     border-bottom: 1px solid;
@@ -36,10 +36,10 @@ li>p{
     border: none;
     font-weight: bold;
 }
-@media (max-width:600px){
+@media (max-width:890px){
     .nav_container{
         display: grid;
-        grid-template-columns: 25% 35% 40%;
+        grid-template-columns: 25% 50% 10%;
     }
     .ui_div{
         display: none;
