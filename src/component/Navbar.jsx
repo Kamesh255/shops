@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='icon_div'>
             <div style={{width:'90%',height:'90%'}} > 
             <Link to="/">
-                <img style={{width:'60%',height:'50px'}} src="https://tse3.mm.bing.net/th?id=OIP.APhWUxMFbdF5LuxbP8NogAHaD6&pid=Api" alt="" />
+                <img style={{width:'60%',height:'50px'}} src="shops_icon.png" alt="" />
             </Link>
             </div>
         </div>

@@ -1,0 +1,31 @@
+.footr_div{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.text{
+    
+    align-items: center;
+    color: aliceblue; 
+    text-align: left;
+}
+.text2{
+    align-items: center;
+    color: aliceblue; 
+    text-align: left;
+    display: block; 
+}
+@media (max-width:650px){
+    .footr_div{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 49% 50%;
+        gap: 5px;
+    }
+    .text2{
+        display: none; 
+    }
+}
+ 
