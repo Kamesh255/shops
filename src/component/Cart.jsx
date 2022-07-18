@@ -60,7 +60,7 @@ const Cart = () => {
      
     <div className="cart_div">
       <div>
-        <h3>MY CARt</h3>
+        <h3>MY CART</h3>
         <br />
         <div className="cart_item">
           {cartData.map((el) => {
@@ -82,10 +82,10 @@ const Cart = () => {
                     <p style={{fontWeight:'bold'}}>{el.title}</p>
                     <div style={{ display: "flex",marginTop:'-15px' }}>
                       <div>
-                        <p>Price : ₹{el.price * el.quantity}</p>
+                        <p style={{fontWeight:'500'}} >Price : ₹{el.price * el.quantity}</p>
                       </div>
                       <div style={{ marginLeft: "10px" }}>
-                        <p> {`quantity: ${el.quantity}`}</p>
+                        <p style={{fontWeight:'500'}}> {`Quantity: ${el.quantity}`}</p>
                       </div>
                     </div>
                     <div className="cart_remove">
